@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;600&display=swap" rel="stylesheet">
+
+    <title>Social Tree</title>
+</head>
+
+<body>
+
+    <div id="container" class="light_mode">
+
+        <div id="subcontainer">
+            <div id="frame_image">
+                <img src="./assets/photo.jpeg" alt="image_profile">
+            </div>
+
+            <div id="container_button_change_mode">
+                <input id="button_change_mode" type="checkbox" onClick=changeMode(event)>
+                <label for="button_change_mode"></label>
+            </div>
+
+            <p>Switch Mode</p>
+
+            <a id="profile" href="@thiagoabaguiar">@thiagoabaguiar</a>
+
+            <ul>
+                <a href="https://www.linkedin.com/in/thiagoabaguiar" target="_blank"><li>Linkedin</li></a>
+                <a href="https://github.com/thiagoabaguiar" target="_blank"><li>Github</li></a>
+                <a href="https://www.instagram.com/thiagoabaguiar/" target="_blank"><li>Instagram</li></a>
+                <a href="https://api.whatsapp.com/send/?phone=5511985632713" target="_blank"><li>WhatsApp</li></a>
+            </ul>
+
+            <div id="social_medias">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="./assets/logo_linkedin.png" alt="logo_linkedin">
+                </a>
+                <a href="https://www.github.com/" target="_blank">
+                    <img src="./assets/logo_github.png" alt="logo_github">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./assets/logo_instagram.png" alt="logo_instagram">
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="./assets/logo_whatsappweb.png" alt="logo_whatsappweb">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+
+</body>
+
+</html>
