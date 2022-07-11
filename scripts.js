@@ -2,7 +2,6 @@ function changeMode() {
 
     const container = document.getElementById('container')
     container.classList.toggle('dark_mode')
-    container.classList.toggle('light_mode')
 
     if (container.classList[0] === 'dark_mode') {
 
